@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ishkov2709/ToDo/static/css/main.3decb700.css",
+    "main.js": "/ishkov2709/ToDo/static/js/main.65d9c57e.js",
+    "index.html": "/ishkov2709/ToDo/index.html",
+    "main.3decb700.css.map": "/ishkov2709/ToDo/static/css/main.3decb700.css.map",
+    "main.65d9c57e.js.map": "/ishkov2709/ToDo/static/js/main.65d9c57e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3decb700.css",
+    "static/js/main.65d9c57e.js"
+  ]
+}
