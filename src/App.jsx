@@ -20,8 +20,6 @@ function App() {
   const filteredList = useSelector(state => state.filteredList);
   const dispatch = useDispatch();
 
-  console.log(filteredList);
-
   useEffect(() => {
     if (todo && isImportantFilter) {
       dispatch(filterOfImportant());

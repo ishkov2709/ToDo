@@ -11,6 +11,7 @@ import {
   toggleImportant,
   toggleModalEdit,
 } from '../../store/todoSlice';
+import PropTypes from 'prop-types';
 
 const ToDo = ({ id, isCheck, isImportant, name, content }) => {
   const dispatch = useDispatch();
@@ -51,6 +52,14 @@ const ToDo = ({ id, isCheck, isImportant, name, content }) => {
       </BtnGroup>
     </Item>
   );
+};
+
+ToDo.propTypes = {
+  id: PropTypes.string,
+  isCheck: PropTypes.bool,
+  isImportant: PropTypes.bool,
+  name: PropTypes.string,
+  content: PropTypes.string,
 };
 
 export default ToDo;
